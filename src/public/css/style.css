@@ -72,3 +72,11 @@ img {
   margin-bottom: 16px;
   display: flex;
 }
+
+.upload-file-container {
+  padding: 15px;
+}
+
+.upload-file-container label {
+  display: block;
+}
