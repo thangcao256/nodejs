@@ -9,7 +9,11 @@ const initWebRoute = (app) => {
         res.send(`I'm Minh Thang!`)
     })
 
-    return app.use('/web/v1/', router)
+    router.get('/details/user/:userId', homeController.getDetailPage)
+
+
+    // return app.use('/web/v1/', router)
+    return app.use('/', router)
 
 }
 
