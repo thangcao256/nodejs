@@ -11,7 +11,7 @@ const initWebRoute = (app) => {
 
     router.get('/details/user/:userId', homeController.getDetailPage)
 
-
+    router.post('/create-new-user', homeController.createNewUser)
     // return app.use('/web/v1/', router)
     return app.use('/', router)
 
