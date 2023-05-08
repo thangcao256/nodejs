@@ -21,4 +21,3 @@ const initWebRoute = (app) => {
 }
 
 export default initWebRoute;
-// module.exports = initWebRoute;
